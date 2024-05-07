@@ -16,6 +16,8 @@ Callback.addCallback("ServerPlayerTick", function (id: number) {
 });
 */
 
+/*
+// test
 let a = 0;
 Callback.addCallback("ServerPlayerTick", function (uid: number) {
     Network.getClientForPlayer(uid).send("AnimationComponet.setVariable", {
@@ -26,6 +28,7 @@ Callback.addCallback("ServerPlayerTick", function (uid: number) {
     a++;
     a %= 10;
 });
+*/
 
 const MolangHelperContainer = {}
 
