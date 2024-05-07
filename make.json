@@ -1,0 +1,62 @@
+{
+	"info": {
+		"name": "AnimationComponent",
+		"author": "cutehusky",
+		"version": "1.0",
+		"description": "",
+		"clientOnly": false
+	},
+	"api": "CoreEngine",
+	"resources": [
+		{
+			"path": "src/assets/res",
+			"type": "resource_directory"
+		},
+		{
+			"path": "src/assets/gui",
+			"type": "gui"
+		},
+		{
+			"path": "src/assets/resource_packs/*",
+			"type": "minecraft_resource_pack"
+		},
+		{
+			"path": "src/assets/behavior_packs/*",
+			"type": "minecraft_behavior_pack"
+		}
+	],
+	"sources": [
+		{
+			"source": "src/dev",
+			"target": "main.js",
+			"type": "main",
+			"language": "typescript"
+		},
+		{
+			"source": "src/launcher.js",
+			"type": "launcher",
+			"language": "javascript"
+		},
+		{
+			"source": "src/lib/*",
+			"type": "library",
+			"language": "javascript"
+		}
+	],
+	"compile": [
+		{
+			"source": "src/java/*",
+			"type": "java"
+		},
+		{
+			"source": "src/native/*",
+			"type": "native"
+		}
+	],
+	"additional": [
+		{
+			"source": "src/assets/root/*",
+			"targetDir": "."
+		}
+	]
+}

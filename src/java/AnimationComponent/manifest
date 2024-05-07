@@ -1,0 +1,11 @@
+{
+    "source-dirs": [
+        "src"
+    ],
+    "library-dirs": [],
+    "verbose": true,
+    "options": [],
+    "boot-classes": [
+        "cutehusky.AnimationComponent.Main"
+    ]
+}
