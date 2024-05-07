@@ -4,8 +4,8 @@ A library for Innercore to control entity's animation via edit molang variable.
 
 ## Feature
 
-- Only support modifies float molang variable in scripts.
-
+- Only support set float molang variable in scripts.
+- Class MolangHelper only work in client.
 - Import
   ```typescript
   let AnimationComponet = null
